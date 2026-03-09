@@ -13,6 +13,7 @@ public class Nuvens : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(Time.deltaTime);
         // Time.deltaTime = tempo em segundos independente do fps
         // Definir o deslocamento da imagem baseado na velocidade
         Vector2 deslocamentoImagem =
