@@ -1290,9 +1290,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -2.7528124, y: 0.5000791, z: 0.029776303}
+    m_Target: {x: -1.9869745, y: 0.74802154, z: 0.04605102}
     speed: 2
-    m_Value: {x: -2.7528124, y: 0.5000791, z: 0.029776303}
+    m_Value: {x: -1.9869745, y: 0.74802154, z: 0.04605102}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1342,9 +1342,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.022349
+    m_Target: 5.3948736
     speed: 2
-    m_Value: 7.022349
+    m_Value: 5.3948736
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1512,12 +1512,14 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: 77498
       m_LastClickedID:
-        m_Data: 0
+        m_Data: 77498
       m_ExpandedIDs:
-      - m_Data: -60354
-      - m_Data: -59220
+      - m_Data: -61960
+      - m_Data: -60876
+      - m_Data: 77498
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1592,7 +1594,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1602,7 +1604,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\FacInpro\2026_1\Unity2D\Projetos\Exemplo Rigid Body com Jump
     Force
@@ -1612,13 +1614,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 77496
+    - m_Data: 77978
     m_LastClickedID:
-      m_Data: 77496
+      m_Data: 77978
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 66038
-    - m_Data: 77164
+    - m_Data: 67378
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1677,14 +1678,15 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs:
+    - m_Data: 77498
+    m_LastClickedInstanceID: 77498
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Player
+      m_OriginalName: Player
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -1692,10 +1694,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 0
+        m_Data: 78012
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 10}
@@ -1788,7 +1790,7 @@ MonoBehaviour:
     m_DynamicPanelBehavior: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 0
+  m_LastSelectedObjectID: 77498
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
