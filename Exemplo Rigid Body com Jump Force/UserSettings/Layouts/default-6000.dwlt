@@ -221,8 +221,8 @@ MonoBehaviour:
     y: 0
     width: 274.66663
     height: 526.6667
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -275,8 +275,8 @@ MonoBehaviour:
     y: 0
     width: 390.22217
     height: 813.7778
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -570,9 +570,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
-    width: 1171
-    height: 578
+    y: 78.22222
+    width: 1040.7778
+    height: 500.6667
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -630,23 +630,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1171
-      height: 557
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 585.5, y: 278.5}
+      width: 1040.7778
+      height: 479.6667
+    m_Scale: {x: 0.99930555, y: 0.9993056}
+    m_Translation: {x: 520.3889, y: 239.83334}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -585.5
-      y: -278.5
-      width: 1171
-      height: 557
+      x: -520.75055
+      y: -240
+      width: 1041.5011
+      height: 480
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1171, y: 578}
+  m_defaultScale: 0.9993056
+  m_LastWindowPixelSize: {x: 2341.75, y: 1126.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1290,9 +1290,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -2.7528124, y: 0.5000791, z: 0.029776303}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -2.7528124, y: 0.5000791, z: 0.029776303}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1342,9 +1342,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 7.022349
     speed: 2
-    m_Value: 10
+    m_Value: 7.022349
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1516,7 +1516,8 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -59546
+      - m_Data: -60354
+      - m_Data: -59220
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1591,7 +1592,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1601,7 +1602,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\FacInpro\2026_1\Unity2D\Projetos\Exemplo Rigid Body com Jump
     Force
@@ -1611,12 +1612,13 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 66024
+    - m_Data: 77496
     m_LastClickedID:
-      m_Data: 66024
+      m_Data: 77496
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 66024
+    - m_Data: 66038
+    - m_Data: 77164
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1677,7 +1679,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: []
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
