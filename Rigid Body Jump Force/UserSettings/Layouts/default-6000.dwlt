@@ -1499,12 +1499,12 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 48764
+      - m_Data: 77520
       m_LastClickedID:
-        m_Data: 48764
+        m_Data: 77520
       m_ExpandedIDs:
-      - m_Data: -1314
-      - m_Data: 48768
+      - m_Data: -62034
+      - m_Data: -60888
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1591,19 +1591,19 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\UNITY_PROJECTS\Rigid Body Jump Force
+  m_LastProjectPath: D:\FacInpro\2026_1\Unity2D\Projetos\Rigid Body Jump Force
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 49352
+    - m_Data: 70874
     m_LastClickedID:
-      m_Data: 49352
+      m_Data: 70874
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49050
+    - m_Data: 67390
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1635,9 +1635,7 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs:
-    - m_Data: 0
-    - m_Data: 49050
+    m_ExpandedIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1665,14 +1663,14 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 48764
-    m_LastClickedInstanceID: 48764
+    - m_Data: 77520
+    m_LastClickedInstanceID: 77520
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: PlayerController
-      m_OriginalName: PlayerController
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -1680,13 +1678,13 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 41948
+        m_Data: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1776,7 +1774,7 @@ MonoBehaviour:
     m_DynamicPanelBehavior: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 48764
+  m_LastSelectedObjectID: 77520
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
