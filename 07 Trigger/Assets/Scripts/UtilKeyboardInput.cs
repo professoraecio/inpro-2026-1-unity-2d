@@ -11,8 +11,7 @@ public class UtilKeyboardInput : MonoBehaviour
     {
         
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         cima = false;
