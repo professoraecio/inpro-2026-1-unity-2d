@@ -1500,11 +1500,11 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: -65192
+      - m_Data: -2776
       m_LastClickedID:
-        m_Data: -65192
+        m_Data: -2776
       m_ExpandedIDs:
-      - m_Data: -60508
+      - m_Data: -1342
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1599,12 +1599,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 77728
+    - m_Data: 50750
     m_LastClickedID:
-      m_Data: 77728
+      m_Data: 50750
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 67784
+    - m_Data: 50446
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1637,7 +1637,9 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs: []
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 50446
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1666,15 +1668,15 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: -65192
+    - m_Data: -2776
     m_LastClickedEntityId:
-      m_Data: -65192
+      m_Data: -2776
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GreenHill
-      m_OriginalName: GreenHill
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -1682,10 +1684,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 77746
+        m_Data: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 10}
