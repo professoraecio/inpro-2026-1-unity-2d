@@ -39,4 +39,20 @@ public class Nave : MonoBehaviour
         if(bounds != null) transform.position = bounds.GetCoordenadasLimite(pos);
     }
 
+    void ProcessarTiro()
+    {
+        if (utilKeyboardInput.spacePressed && Time.time >= tempoProximoTiro)
+        {
+            tempoProximoTiro = Time.time + intervaloTiro;
+            Instantiate(missil,
+                new Vector3(
+                    origemMissil.transform.position.x,
+                    origemMissil.transform.position.y,
+                    origemMissil.transform.position.z),
+                    Quaternion.identity
+                );
+                // Quaternion.identity = rotação nula
+        }
+    }
+
 }
