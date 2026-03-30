@@ -6,18 +6,11 @@ public class UtilKeyboardInput : MonoBehaviour
     public bool baixo = false;
     public bool esquerda = false;
     public bool direita = false;
-
-    void Start()
-    {
-        
-    }
-    
+  
     void Update()
     {
-        cima = false;
-        baixo = false;
-        esquerda = false;
-        direita = false;
+        cima = false; baixo = false;
+        esquerda = false; direita = false;
         if (Keyboard.current.upArrowKey.isPressed)
             cima = true;
         if (Keyboard.current.downArrowKey.isPressed)
