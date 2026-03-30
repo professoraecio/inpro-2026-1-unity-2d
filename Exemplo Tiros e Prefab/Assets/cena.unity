@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -287,6 +288,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c64a658c2a29d242a86de7b3358a498, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UtilScreenBoundsLimiter
+  camera: {fileID: 0}
+  referenciaTamanho: {fileID: 0}
+  paddingX: 0
+  paddingY: 0
+  metadeLargura: 0
+  metadeAltura: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -381,6 +400,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1330652189}
   - component: {fileID: 1330652188}
+  - component: {fileID: 1330652190}
+  - component: {fileID: 1330652191}
   m_Layer: 0
   m_Name: Nave
   m_TagString: Untagged
@@ -463,7 +484,42 @@ Transform:
   - {fileID: 218687503}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &3536216937602189646
+--- !u!114 &1330652190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330652187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58eb2aa1038e6f045953d49672b71c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Nave
+  missil: {fileID: 8407122595700113938, guid: ffff4f93a2e68a94b96ea4e4d6bfa580, type: 3}
+  origemMissil: {fileID: 218687502}
+  intervaloTiro: 1
+  tempoProximoTiro: 0
+  velocidade: 6
+  bounds: {fileID: 0}
+--- !u!114 &1330652191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330652187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f351385e305e5cb4cadea82968bc14dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UtilKeyboardInput
+  upPressed: 0
+  downPressed: 0
+  leftPressed: 0
+  rightPressed: 0
+  spacePressed: 0
+--- !u!1001 &1543480348
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -473,11 +529,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1383273978463108747, guid: ffff4f93a2e68a94b96ea4e4d6bfa580, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.428281
+      value: -10.22476
       objectReference: {fileID: 0}
     - target: {fileID: 1383273978463108747, guid: ffff4f93a2e68a94b96ea4e4d6bfa580, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1189872
+      value: -3.331251
       objectReference: {fileID: 0}
     - target: {fileID: 1383273978463108747, guid: ffff4f93a2e68a94b96ea4e4d6bfa580, type: 3}
       propertyPath: m_LocalPosition.z
@@ -527,4 +583,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 1330652189}
-  - {fileID: 3536216937602189646}
+  - {fileID: 1543480348}

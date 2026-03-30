@@ -21,7 +21,8 @@ public class Nave : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ProcessarMovimento();
+        ProcessarTiro();
     }
 
     void ProcessarMovimento()
