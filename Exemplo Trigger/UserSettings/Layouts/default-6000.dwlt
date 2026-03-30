@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 990
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -571,7 +571,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 78
-    width: 1074
+    width: 1193
     height: 582.5
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -630,23 +630,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1074
+      width: 1193
       height: 561.5
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 537, y: 280.75}
+    m_Translation: {x: 596.5, y: 280.75}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -537
+      x: -596.5
       y: -280.75
-      width: 1074
+      width: 1193
       height: 561.5
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1074, y: 582.5}
+  m_LastWindowPixelSize: {x: 2386, y: 1165}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1500,9 +1500,9 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: -2776
+      - m_Data: 50344
       m_LastClickedID:
-        m_Data: -2776
+        m_Data: 50344
       m_ExpandedIDs:
       - m_Data: -1342
       m_RenameOverlay:
@@ -1580,7 +1580,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1590,7 +1590,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\FacInpro\2026_1\Unity2D\Projetos\Exemplo Trigger
   m_LockTracker:
@@ -1599,12 +1599,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 50750
+    - m_Data: 50780
     m_LastClickedID:
-      m_Data: 50750
+      m_Data: 50780
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50446
+    - m_Data: 50466
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1639,7 +1639,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50446
+    - m_Data: 50466
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1668,15 +1668,15 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: -2776
+    - m_Data: 50344
     m_LastClickedEntityId:
-      m_Data: -2776
+      m_Data: 50344
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: EggMan
+      m_OriginalName: EggMan
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -1684,10 +1684,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 0
+        m_Data: 50808
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 10}
@@ -1782,7 +1782,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID:
-    m_Data: 0
+    m_Data: 50344
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
