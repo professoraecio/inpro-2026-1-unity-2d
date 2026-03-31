@@ -6,7 +6,7 @@ public class Foguete : MonoBehaviour
     [SerializeField]
     float velocidade = 6f;
     [SerializeField]
-    UtilScreenBoundsLimiter bounds;
+    UtilScreenBoundsLimiter bounds;// deve ficar anexado a câmera
     UtilKeyboardInput teclado;
     void Start()
     {
