@@ -350,6 +350,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1100315915}
   - component: {fileID: 1100315914}
+  - component: {fileID: 1100315917}
+  - component: {fileID: 1100315916}
   m_Layer: 0
   m_Name: Tails
   m_TagString: Untagged
@@ -431,6 +433,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1100315916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100315913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1520d07f56a31948a4242b81f258168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlyingPlayerController
+  velocidade: 2.5
+  tempoDoFrame: 0
+--- !u!114 &1100315917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100315913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77a28a36d116454ba87d45db1366e38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Teclado
+  cima: 0
+  baixo: 0
+  esquerda: 0
+  direita: 0
+  z: 0
+  x: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
