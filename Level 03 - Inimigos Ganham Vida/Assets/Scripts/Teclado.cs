@@ -8,6 +8,7 @@ public class Teclado : MonoBehaviour
     public bool direita;
     public bool z;
     public bool x;
+    public bool espaco;
     
     void Update()
     {
@@ -18,5 +19,6 @@ public class Teclado : MonoBehaviour
         direita = Keyboard.current.rightArrowKey.isPressed;
         z = Keyboard.current.zKey.isPressed;
         x = Keyboard.current.xKey.isPressed;
+        espaco = Keyboard.current.spaceKey.isPressed;
     }
 }
