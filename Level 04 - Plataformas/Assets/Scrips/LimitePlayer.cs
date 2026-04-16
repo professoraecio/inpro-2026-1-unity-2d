@@ -12,8 +12,8 @@ public class LimitePlayer : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 pos = rb.position;          // Controle x min/max
-        pos.x = pos.x < -8 ? -8 : pos.x;    // Controle x min/max
-        pos.x = pos.x > 8 ? 8 : pos.x;      // Controle x min/max
+        pos.x = pos.x <= -8 ? -8 : pos.x;    // Controle x min/max
+        pos.x = pos.x >= 8 ? 8 : pos.x;      // Controle x min/max
         rb.position = pos;                  // Controle x min/max
     }
 }
