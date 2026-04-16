@@ -1,14 +1,11 @@
 using UnityEngine;
-
 public class LimitePlayer : MonoBehaviour
 {
     private Rigidbody2D rb;
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
     void FixedUpdate()
     {
         Vector2 pos = rb.position;              // Controle x/y min/max
