@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 990
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -1276,7 +1276,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.2618403, y: -0.20094705, z: 0.04245063}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: -0.2618403, y: -0.20094705, z: 0.04245063}
   m_RenderMode: 0
@@ -1329,7 +1329,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.7549357
+    m_Target: 10
     speed: 2
     m_Value: 5.7549357
   m_Ortho:
@@ -1500,11 +1500,11 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 50442
+      - m_Data: 77552
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -1342
+      - m_Data: -60508
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1592,20 +1592,20 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Sprites
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\FacInpro\2026_1\Unity2D\Projetos\Level 07 - Prefabs e Sistemas
-    de Controle
+  m_LastProjectPath: D:\FacInpro\2026_1\Unity2D\Projetos\Level 08 - Triggers e Coleta
+    de Itens
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 50816
+    - m_Data: 77536
     m_LastClickedID:
-      m_Data: 50816
+      m_Data: 77536
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50506
+    - m_Data: 67784
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1638,9 +1638,7 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs:
-    - m_Data: 0
-    - m_Data: 50506
+    m_ExpandedIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1669,9 +1667,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 50442
+    - m_Data: 77552
     m_LastClickedEntityId:
-      m_Data: 50442
+      m_Data: 77552
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -1691,7 +1689,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_EntityId:
