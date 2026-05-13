@@ -4,9 +4,9 @@ public class BackgroundController : MonoBehaviour
     [SerializeField]
     public float velocidade = 0.8f;
     [SerializeField]
-    public int horizontal = 1;
+    public int horizontal = 0;
     [SerializeField]
-    public int vertical = 0;
+    public int vertical = 1;
     public Renderer render;
 
     void Start()
