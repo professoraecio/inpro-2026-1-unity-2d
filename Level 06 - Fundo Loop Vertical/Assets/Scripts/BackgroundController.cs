@@ -1,24 +1,30 @@
 using UnityEngine;
 public class BackgroundController : MonoBehaviour
 {
-    public bool vertical = true;
-    public bool horizontal = false;
     [SerializeField]
     public float velocidade = 0.8f;
+    [SerializeField]
+    public int horizontal = 1;
+    [SerializeField]
+    public int vertical = 0;
     public Renderer render;
-    Vector2 offset;
-    float deslocamento;
+
     void Start()
     {
         render = GetComponent<Renderer>();
     }
     void Update()
     {
-        deslocamento = velocidade * Time.deltaTime;
-        if(vertical)
-            offset = new Vector2(0,deslocamento);
-        if(horizontal)
-            offset = new Vector2(deslocamento,0);
+        float tempoDoFrame = Time.deltaTime;
+        float dist = velocidade * tempoDoFrame;
+        Vector2 offset = Mover(horizontal * dist, vertical * dist);
         render.material.mainTextureOffset += offset;
+    }
+
+    private Vector2 Mover(float movimentoX, float movimentoY)
+    {
+        Vector2 offset;
+        offset = new Vector2(movimentoX, movimentoY);
+        return offset;
     }
 }
