@@ -725,6 +725,8 @@ GameObject:
   - component: {fileID: 2063842227}
   - component: {fileID: 2063842230}
   - component: {fileID: 2063842229}
+  - component: {fileID: 2063842236}
+  - component: {fileID: 2063842235}
   - component: {fileID: 2063842232}
   - component: {fileID: 2063842231}
   - component: {fileID: 2063842233}
@@ -945,6 +947,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ea2493581e51a44294931722fbb7c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LimitesTela
+--- !u!114 &2063842235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063842226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab04fe79cef72d49ad2a1f73a563cb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Joystick
+  cima: 0
+  baixo: 0
+  esquerda: 0
+  direita: 0
+  l1_lb: 0
+  l2_lt: 0
+  r1_rb: 0
+  r2_rt: 0
+  x_a: 0
+  o_b: 0
+  quadrado_x: 0
+  triangulo_y: 0
+--- !u!114 &2063842236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063842226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7539a697fe76e7343b2b68ee09b0467a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JoystickTeclado
+  cima: 0
+  baixo: 0
+  esquerda: 0
+  direita: 0
+  pulo: 0
+  ataque: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
